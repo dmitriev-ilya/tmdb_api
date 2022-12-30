@@ -40,3 +40,16 @@ $python3 make_own_db.py
 Пример работы:
 
 ![image](https://user-images.githubusercontent.com/67222917/210054875-63ce84e8-84cc-4472-82a1-0af0394b8871.png)
+
+### search_in_db.py
+
+Скрипт осуществляет поиск фильмов по ключевым словам в файле полученном с помощью `make_own_db.py` и выводит их списком в терминал.
+При запуске необходимо указать путь к файлу, а также ключевое слово для поиска.
+```
+$python3 search_in_db.py
+```
+
+Пример работы:
+
+![image](https://user-images.githubusercontent.com/67222917/210057747-d3eefb4b-88a9-4b61-a0e2-40265ef533eb.png)
+
